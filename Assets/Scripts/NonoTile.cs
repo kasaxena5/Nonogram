@@ -11,7 +11,8 @@ public class NonoTile : MonoBehaviour
     {
         Unrevealed,
         Fill,
-        Cross
+        Cross,
+        Error
     }
 
     [SerializeField]
@@ -25,6 +26,7 @@ public class NonoTile : MonoBehaviour
             NonoState.Unrevealed => Color.white,
             NonoState.Fill => Color.black,
             NonoState.Cross => Color.black,
+            NonoState.Error => Color.red,
             _ => Color.white,
         };
 

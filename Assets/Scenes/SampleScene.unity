@@ -892,6 +892,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nonoTilePrefab: {fileID: 3730402969664889400, guid: 7fefa6cb2a96d104fa1402d5546035a3, type: 3}
+  nonoTextPrefab: {fileID: 2242937291892412780, guid: e8495e2597a02f341a98a2b81c8a7d54, type: 3}
+  cursorScrollbar: {fileID: 480296356}
   size: 10
   canvas: {fileID: 355090577}
 --- !u!4 &1454698865
